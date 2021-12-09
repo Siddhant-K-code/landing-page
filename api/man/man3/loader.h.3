@@ -1,4 +1,4 @@
-.TH "loader.h" 3 "Mon Jun 28 2021" "Version 0.1.0.e6cda9765a88" "MetaCall" \" -*- nroff -*-
+.TH "loader.h" 3 "Thu Dec 9 2021" "Version 0.5.13.8e293b824ee9" "MetaCall" \" -*- nroff -*-
 .ad l
 .nh
 .SH NAME
@@ -97,7 +97,7 @@ loader.h
 .RI "LOADER_API int \fBloader_clear\fP (void *handle)"
 .br
 .ti -1c
-.RI "LOADER_API void \fBloader_unload_children\fP (\fBloader_impl\fP impl)"
+.RI "LOADER_API void \fBloader_unload_children\fP (\fBloader_impl\fP impl, int destroy_objects)"
 .br
 .ti -1c
 .RI "LOADER_API int \fBloader_unload\fP (void)"
@@ -161,7 +161,7 @@ loader.h
 
 .SS "LOADER_API int loader_clear (void * handle)"
 
-.SS "LOADER_API void loader_unload_children (\fBloader_impl\fP impl)"
+.SS "LOADER_API void loader_unload_children (\fBloader_impl\fP impl, int destroy_objects)"
 
 .SS "LOADER_API int loader_unload (void)"
 

@@ -1,4 +1,4 @@
-.TH "reflect_context.h" 3 "Mon Jun 28 2021" "Version 0.1.0.e6cda9765a88" "MetaCall" \" -*- nroff -*-
+.TH "reflect_context.h" 3 "Thu Dec 9 2021" "Version 0.5.13.8e293b824ee9" "MetaCall" \" -*- nroff -*-
 .ad l
 .nh
 .SH NAME
@@ -34,7 +34,7 @@ reflect_context.h
 .RI "REFLECT_API int \fBcontext_append\fP (\fBcontext\fP dest, \fBcontext\fP src)"
 .br
 .ti -1c
-.RI "REFLECT_API int \fBcontext_contains\fP (\fBcontext\fP dest, \fBcontext\fP src)"
+.RI "REFLECT_API int \fBcontext_contains\fP (\fBcontext\fP dest, \fBcontext\fP src, char **duplicated)"
 .br
 .ti -1c
 .RI "REFLECT_API int \fBcontext_remove\fP (\fBcontext\fP dest, \fBcontext\fP src)"
@@ -57,7 +57,7 @@ reflect_context.h
 
 .SS "REFLECT_API int context_append (\fBcontext\fP dest, \fBcontext\fP src)"
 
-.SS "REFLECT_API int context_contains (\fBcontext\fP dest, \fBcontext\fP src)"
+.SS "REFLECT_API int context_contains (\fBcontext\fP dest, \fBcontext\fP src, char ** duplicated)"
 
 .SS "REFLECT_API int context_remove (\fBcontext\fP dest, \fBcontext\fP src)"
 

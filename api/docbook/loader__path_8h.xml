@@ -38,6 +38,8 @@ This graph shows which files directly or indirectly include this file:<para>
 </listitem>
             <listitem><para>LOADER_API size_t <link linkend="_loader__path_8h_1a5ea5f53a4846747eb99cfb06ecd0341d">loader_path_get_relative</link> (const <link linkend="_loader__naming_8h_1aa27055dfc9a7bd58b024fea91438099a">loader_naming_path</link> base, const <link linkend="_loader__naming_8h_1aa27055dfc9a7bd58b024fea91438099a">loader_naming_path</link> path, <link linkend="_loader__naming_8h_1aa27055dfc9a7bd58b024fea91438099a">loader_naming_path</link> relative)</para>
 </listitem>
+            <listitem><para>LOADER_API int <link linkend="_loader__path_8h_1aadba0f63de8ba74d0e6ef6db22240a40">loader_path_is_subpath</link> (const <link linkend="_loader__naming_8h_1aa27055dfc9a7bd58b024fea91438099a">loader_naming_path</link> parent, const <link linkend="_loader__naming_8h_1aa27055dfc9a7bd58b024fea91438099a">loader_naming_path</link> child)</para>
+</listitem>
             <listitem><para>LOADER_API int <link linkend="_loader__path_8h_1a8677d56baf8db4420b262bb31cb321a9">loader_path_is_absolute</link> (const <link linkend="_loader__naming_8h_1aa27055dfc9a7bd58b024fea91438099a">loader_naming_path</link> path)</para>
 </listitem>
             <listitem><para>LOADER_API size_t <link linkend="_loader__path_8h_1ae818cdb044d24506a9b410dd3e8b96bd">loader_path_join</link> (const <link linkend="_loader__naming_8h_1aa27055dfc9a7bd58b024fea91438099a">loader_naming_path</link> left_path, size_t left_path_size, const <link linkend="_loader__naming_8h_1aa27055dfc9a7bd58b024fea91438099a">loader_naming_path</link> right_path, size_t right_path_size, <link linkend="_loader__naming_8h_1aa27055dfc9a7bd58b024fea91438099a">loader_naming_path</link> join_path)</para>
@@ -72,7 +74,11 @@ This graph shows which files directly or indirectly include this file:<para>
     <title>loader_path_get_relative()</title>
 <indexterm><primary>loader_path_get_relative</primary><secondary>loader_path.h</secondary></indexterm>
 <indexterm><primary>loader_path.h</primary><secondary>loader_path_get_relative</secondary></indexterm>
-<para><computeroutput>LOADER_API size_t loader_path_get_relative (const <link linkend="_loader__naming_8h_1aa27055dfc9a7bd58b024fea91438099a">loader_naming_path</link> base, const <link linkend="_loader__naming_8h_1aa27055dfc9a7bd58b024fea91438099a">loader_naming_path</link> path, <link linkend="_loader__naming_8h_1aa27055dfc9a7bd58b024fea91438099a">loader_naming_path</link> relative)</computeroutput></para>    </section><anchor xml:id="_loader__path_8h_1a8677d56baf8db4420b262bb31cb321a9"/>    <section>
+<para><computeroutput>LOADER_API size_t loader_path_get_relative (const <link linkend="_loader__naming_8h_1aa27055dfc9a7bd58b024fea91438099a">loader_naming_path</link> base, const <link linkend="_loader__naming_8h_1aa27055dfc9a7bd58b024fea91438099a">loader_naming_path</link> path, <link linkend="_loader__naming_8h_1aa27055dfc9a7bd58b024fea91438099a">loader_naming_path</link> relative)</computeroutput></para>    </section><anchor xml:id="_loader__path_8h_1aadba0f63de8ba74d0e6ef6db22240a40"/>    <section>
+    <title>loader_path_is_subpath()</title>
+<indexterm><primary>loader_path_is_subpath</primary><secondary>loader_path.h</secondary></indexterm>
+<indexterm><primary>loader_path.h</primary><secondary>loader_path_is_subpath</secondary></indexterm>
+<para><computeroutput>LOADER_API int loader_path_is_subpath (const <link linkend="_loader__naming_8h_1aa27055dfc9a7bd58b024fea91438099a">loader_naming_path</link> parent, const <link linkend="_loader__naming_8h_1aa27055dfc9a7bd58b024fea91438099a">loader_naming_path</link> child)</computeroutput></para>    </section><anchor xml:id="_loader__path_8h_1a8677d56baf8db4420b262bb31cb321a9"/>    <section>
     <title>loader_path_is_absolute()</title>
 <indexterm><primary>loader_path_is_absolute</primary><secondary>loader_path.h</secondary></indexterm>
 <indexterm><primary>loader_path.h</primary><secondary>loader_path_is_absolute</secondary></indexterm>

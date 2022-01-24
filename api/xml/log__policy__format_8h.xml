@@ -21,20 +21,20 @@
         <childnode refid="3" relation="include">
         </childnode>
       </node>
-      <node id="10">
+      <node id="11">
         <label>log/log_record.h</label>
         <link refid="log__record_8h"/>
         <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="11" relation="include">
-        </childnode>
         <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
         </childnode>
         <childnode refid="8" relation="include">
         </childnode>
         <childnode refid="5" relation="include">
         </childnode>
-        <childnode refid="13" relation="include">
+        <childnode refid="14" relation="include">
         </childnode>
       </node>
       <node id="1">
@@ -48,10 +48,13 @@
         </childnode>
         <childnode refid="7" relation="include">
         </childnode>
-        <childnode refid="9" relation="include">
-        </childnode>
         <childnode refid="10" relation="include">
         </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>stdint.h</label>
       </node>
       <node id="5">
         <label>stdlib.h</label>
@@ -59,10 +62,10 @@
       <node id="2">
         <label>log/log_api.h</label>
       </node>
-      <node id="12">
+      <node id="13">
         <label>threading/threading_thread_id.h</label>
       </node>
-      <node id="9">
+      <node id="10">
         <label>log/log_policy_format_text.h</label>
         <link refid="log__policy__format__text_8h"/>
         <childnode refid="2" relation="include">
@@ -70,7 +73,7 @@
         <childnode refid="3" relation="include">
         </childnode>
       </node>
-      <node id="13">
+      <node id="14">
         <label>time.h</label>
       </node>
       <node id="4">
@@ -91,7 +94,7 @@
         <childnode refid="5" relation="include">
         </childnode>
       </node>
-      <node id="11">
+      <node id="12">
         <label>log/log_level.h</label>
         <link refid="log__level_8h"/>
         <childnode refid="2" relation="include">
@@ -107,6 +110,8 @@
         <childnode refid="3" relation="include">
         </childnode>
         <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
         </childnode>
       </node>
     </incdepgraph>
@@ -285,15 +290,15 @@
           <declname>context</declname>
         </param>
         <param>
-          <type><ref refid="log__policy__format__custom_8h_1a719a0c26ebdb7eea45b16a67ebe30243" kindref="member">log_policy_format_custom_size_ptr</ref></type>
+          <type><ref refid="log__policy__format__custom_8h_1aaf79835e3ef0a7343e0b71510220d568" kindref="member">log_policy_format_custom_size_ptr</ref></type>
           <declname>format_size</declname>
         </param>
         <param>
-          <type><ref refid="log__policy__format__custom_8h_1a54d4075733047339a7252d890e452f22" kindref="member">log_policy_format_custom_serialize_ptr</ref></type>
+          <type><ref refid="log__policy__format__custom_8h_1ab915d8a160627f645bbe5e44d9b4087f" kindref="member">log_policy_format_custom_serialize_ptr</ref></type>
           <declname>format_serialize</declname>
         </param>
         <param>
-          <type><ref refid="log__policy__format__custom_8h_1a832db9264c0a4a03ff8ebe564450a834" kindref="member">log_policy_format_custom_deserialize_ptr</ref></type>
+          <type><ref refid="log__policy__format__custom_8h_1a35f6c2dbef904216c8d686688f91e6cb" kindref="member">log_policy_format_custom_deserialize_ptr</ref></type>
           <declname>format_deserialize</declname>
         </param>
         <briefdescription>
@@ -312,7 +317,7 @@
     <programlisting>
 <codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
 <codeline lineno="2"><highlight class="comment"><sp/>*<sp/><sp/>Logger<sp/>Library<sp/>by<sp/>Parra<sp/>Studios</highlight></codeline>
-<codeline lineno="3"><highlight class="comment"><sp/>*<sp/><sp/>Copyright<sp/>(C)<sp/>2016<sp/>-<sp/>2021<sp/>Vicente<sp/>Eduardo<sp/>Ferrer<sp/>Garcia<sp/>&lt;vic798@gmail.com&gt;</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*<sp/><sp/>Copyright<sp/>(C)<sp/>2016<sp/>-<sp/>2022<sp/>Vicente<sp/>Eduardo<sp/>Ferrer<sp/>Garcia<sp/>&lt;vic798@gmail.com&gt;</highlight></codeline>
 <codeline lineno="4"><highlight class="comment"><sp/>*</highlight></codeline>
 <codeline lineno="5"><highlight class="comment"><sp/>*<sp/><sp/>A<sp/>generic<sp/>logger<sp/>library<sp/>providing<sp/>application<sp/>execution<sp/>reports.</highlight></codeline>
 <codeline lineno="6"><highlight class="comment"><sp/>*</highlight></codeline>
@@ -378,7 +383,7 @@
 <codeline lineno="66"><highlight class="normal"></highlight></codeline>
 <codeline lineno="67"><highlight class="normal">LOG_API<sp/><ref refid="log__aspect_8h_1aefc5ba1d88f16647657e9a4416b1abfe" kindref="member">log_policy</ref><sp/><ref refid="log__policy__format_8h_1a5d7ec06b267ffd3c687b3ab3d894d7aa" kindref="member">log_policy_format_text_flags</ref>(</highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>flags);</highlight></codeline>
 <codeline lineno="68"><highlight class="normal"></highlight></codeline>
-<codeline lineno="69"><highlight class="normal">LOG_API<sp/><ref refid="log__aspect_8h_1aefc5ba1d88f16647657e9a4416b1abfe" kindref="member">log_policy</ref><sp/><ref refid="log__policy__format_8h_1a8b222ae0ba2e8c1062a7a2824142f7f3" kindref="member">log_policy_format_custom</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*<ref refid="reflect__context_8h_1ab01e2b1d8e268430d5c2d3d1d870251b" kindref="member">context</ref>,<sp/><ref refid="log__policy__format__custom_8h_1a719a0c26ebdb7eea45b16a67ebe30243" kindref="member">log_policy_format_custom_size_ptr</ref><sp/>format_size,<sp/><ref refid="log__policy__format__custom_8h_1a54d4075733047339a7252d890e452f22" kindref="member">log_policy_format_custom_serialize_ptr</ref><sp/>format_serialize,<sp/><ref refid="log__policy__format__custom_8h_1a832db9264c0a4a03ff8ebe564450a834" kindref="member">log_policy_format_custom_deserialize_ptr</ref><sp/>format_deserialize);</highlight></codeline>
+<codeline lineno="69"><highlight class="normal">LOG_API<sp/><ref refid="log__aspect_8h_1aefc5ba1d88f16647657e9a4416b1abfe" kindref="member">log_policy</ref><sp/><ref refid="log__policy__format_8h_1a8b222ae0ba2e8c1062a7a2824142f7f3" kindref="member">log_policy_format_custom</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*<ref refid="reflect__context_8h_1ab01e2b1d8e268430d5c2d3d1d870251b" kindref="member">context</ref>,<sp/><ref refid="log__policy__format__custom_8h_1aaf79835e3ef0a7343e0b71510220d568" kindref="member">log_policy_format_custom_size_ptr</ref><sp/>format_size,<sp/><ref refid="log__policy__format__custom_8h_1ab915d8a160627f645bbe5e44d9b4087f" kindref="member">log_policy_format_custom_serialize_ptr</ref><sp/>format_serialize,<sp/><ref refid="log__policy__format__custom_8h_1a35f6c2dbef904216c8d686688f91e6cb" kindref="member">log_policy_format_custom_deserialize_ptr</ref><sp/>format_deserialize);</highlight></codeline>
 <codeline lineno="70"><highlight class="normal"></highlight></codeline>
 <codeline lineno="71"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="72"><highlight class="normal">}</highlight></codeline>

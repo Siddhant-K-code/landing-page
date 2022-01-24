@@ -202,6 +202,7 @@
     <xi:include href="reflect__value__type__demotion_8h.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
     <xi:include href="reflect__value__type__id__size_8h.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
     <xi:include href="reflect__value__type__promotion_8h.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="version_8h.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
 </chapter>
 <index/>
 </book>

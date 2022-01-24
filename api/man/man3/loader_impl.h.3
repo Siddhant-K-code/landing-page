@@ -1,4 +1,4 @@
-.TH "loader_impl.h" 3 "Thu Dec 9 2021" "Version 0.5.13.8e293b824ee9" "MetaCall" \" -*- nroff -*-
+.TH "loader_impl.h" 3 "Mon Jan 24 2022" "Version 0.5.16.67af71d477a8" "MetaCall" \" -*- nroff -*-
 .ad l
 .nh
 .SH NAME
@@ -81,6 +81,9 @@ loader_impl.h
 .RI "LOADER_API \fBcontext\fP \fBloader_impl_handle_context\fP (void *handle)"
 .br
 .ti -1c
+.RI "LOADER_API int \fBloader_impl_handle_validate\fP (void *handle)"
+.br
+.ti -1c
 .RI "LOADER_API \fBvalue\fP \fBloader_impl_metadata\fP (\fBloader_impl\fP impl)"
 .br
 .ti -1c
@@ -139,6 +142,8 @@ loader_impl.h
 .SS "LOADER_API \fBvalue\fP loader_impl_handle_export (void * handle)"
 
 .SS "LOADER_API \fBcontext\fP loader_impl_handle_context (void * handle)"
+
+.SS "LOADER_API int loader_impl_handle_validate (void * handle)"
 
 .SS "LOADER_API \fBvalue\fP loader_impl_metadata (\fBloader_impl\fP impl)"
 

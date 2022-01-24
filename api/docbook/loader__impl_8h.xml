@@ -71,6 +71,8 @@ This graph shows which files directly or indirectly include this file:<para>
 </listitem>
             <listitem><para>LOADER_API <link linkend="_reflect__context_8h_1ab01e2b1d8e268430d5c2d3d1d870251b">context</link> <link linkend="_loader__impl_8h_1a0feed327b857033b702cf7c21fc0b88d">loader_impl_handle_context</link> (void *handle)</para>
 </listitem>
+            <listitem><para>LOADER_API int <link linkend="_loader__impl_8h_1a27eb3f04e9de3df4db549aff83ad2f67">loader_impl_handle_validate</link> (void *handle)</para>
+</listitem>
             <listitem><para>LOADER_API <link linkend="_reflect__value_8h_1a54c528809d1b8a4d229f655f96b2433a">value</link> <link linkend="_loader__impl_8h_1a1533d375b2c0936275ea5d6b47a498c0">loader_impl_metadata</link> (<link linkend="_loader__impl__interface_8h_1a92e542164f804b49f0c1d6149b1c045e">loader_impl</link> impl)</para>
 </listitem>
             <listitem><para>LOADER_API int <link linkend="_loader__impl_8h_1af1f5d8072b794eec75444ccf79abe9ce">loader_impl_clear</link> (void *handle)</para>
@@ -169,7 +171,11 @@ This graph shows which files directly or indirectly include this file:<para>
     <title>loader_impl_handle_context()</title>
 <indexterm><primary>loader_impl_handle_context</primary><secondary>loader_impl.h</secondary></indexterm>
 <indexterm><primary>loader_impl.h</primary><secondary>loader_impl_handle_context</secondary></indexterm>
-<para><computeroutput>LOADER_API <link linkend="_reflect__context_8h_1ab01e2b1d8e268430d5c2d3d1d870251b">context</link> loader_impl_handle_context (void * handle)</computeroutput></para>    </section><anchor xml:id="_loader__impl_8h_1a1533d375b2c0936275ea5d6b47a498c0"/>    <section>
+<para><computeroutput>LOADER_API <link linkend="_reflect__context_8h_1ab01e2b1d8e268430d5c2d3d1d870251b">context</link> loader_impl_handle_context (void * handle)</computeroutput></para>    </section><anchor xml:id="_loader__impl_8h_1a27eb3f04e9de3df4db549aff83ad2f67"/>    <section>
+    <title>loader_impl_handle_validate()</title>
+<indexterm><primary>loader_impl_handle_validate</primary><secondary>loader_impl.h</secondary></indexterm>
+<indexterm><primary>loader_impl.h</primary><secondary>loader_impl_handle_validate</secondary></indexterm>
+<para><computeroutput>LOADER_API int loader_impl_handle_validate (void * handle)</computeroutput></para>    </section><anchor xml:id="_loader__impl_8h_1a1533d375b2c0936275ea5d6b47a498c0"/>    <section>
     <title>loader_impl_metadata()</title>
 <indexterm><primary>loader_impl_metadata</primary><secondary>loader_impl.h</secondary></indexterm>
 <indexterm><primary>loader_impl.h</primary><secondary>loader_impl_metadata</secondary></indexterm>

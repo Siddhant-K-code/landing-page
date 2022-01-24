@@ -45,6 +45,8 @@ This graph shows which files directly or indirectly include this file:<para>
 </listitem>
             <listitem><para>REFLECT_API <link linkend="_reflect__value_8h_1a54c528809d1b8a4d229f655f96b2433a">value</link> <link linkend="_reflect__value_8h_1ad54de5d34e19dff84a6798f20d5c68ad">value_create</link> (const void *data, size_t bytes)</para>
 </listitem>
+            <listitem><para>REFLECT_API int <link linkend="_reflect__value_8h_1ab4ea738843b4862c598beb44c220aeda">value_validate</link> (<link linkend="_reflect__value_8h_1a54c528809d1b8a4d229f655f96b2433a">value</link> v)</para>
+</listitem>
             <listitem><para>REFLECT_API <link linkend="_reflect__value_8h_1a54c528809d1b8a4d229f655f96b2433a">value</link> <link linkend="_reflect__value_8h_1a797b2f8ba4f572bc05c1d86d69a2179d">value_copy</link> (<link linkend="_reflect__value_8h_1a54c528809d1b8a4d229f655f96b2433a">value</link> v)</para>
 </listitem>
             <listitem><para>REFLECT_API void <link linkend="_reflect__value_8h_1af5d25763b65c455048fb2d7468000c73">value_move</link> (<link linkend="_reflect__value_8h_1a54c528809d1b8a4d229f655f96b2433a">value</link> src, <link linkend="_reflect__value_8h_1a54c528809d1b8a4d229f655f96b2433a">value</link> dst)</para>
@@ -165,6 +167,42 @@ Parameters                    </title>
                 <formalpara><title>Returns</title>
 
 <para>Pointer to value if success, null otherwhise </para>
+</formalpara>
+</para>
+    </section><anchor xml:id="_reflect__value_8h_1ab4ea738843b4862c598beb44c220aeda"/>    <section>
+    <title>value_validate()</title>
+<indexterm><primary>value_validate</primary><secondary>reflect_value.h</secondary></indexterm>
+<indexterm><primary>reflect_value.h</primary><secondary>value_validate</secondary></indexterm>
+<para><computeroutput>REFLECT_API int value_validate (<link linkend="_reflect__value_8h_1a54c528809d1b8a4d229f655f96b2433a">value</link> v)</computeroutput></para><para>
+
+<para>Check if the value @v is valid or the memory is corrupted. </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters                    </title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="3" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+                                <entry>in                                </entry>                                <entry>v</entry>
+                                <entry>
+<para>Reference of value to be checked</para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>Zero if the value is valid, null otherwhise </para>
 </formalpara>
 </para>
     </section><anchor xml:id="_reflect__value_8h_1a797b2f8ba4f572bc05c1d86d69a2179d"/>    <section>

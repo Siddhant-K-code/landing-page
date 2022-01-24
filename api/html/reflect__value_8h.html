@@ -27,7 +27,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MetaCall
-   &#160;<span id="projectnumber">0.5.13.8e293b824ee9</span>
+   &#160;<span id="projectnumber">0.5.16.67af71d477a8</span>
    </div>
    <div id="projectbrief">A library for providing inter-language foreign function interface calls</div>
   </td>
@@ -161,6 +161,8 @@ Functions</h2></td></tr>
 <tr class="separator:ae21bf2663228ad09c7aaba7acf397285"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad54de5d34e19dff84a6798f20d5c68ad"><td class="memItemLeft" align="right" valign="top">REFLECT_API <a class="el" href="reflect__value_8h.html#a54c528809d1b8a4d229f655f96b2433a">value</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="reflect__value_8h.html#ad54de5d34e19dff84a6798f20d5c68ad">value_create</a> (const void *data, size_t bytes)</td></tr>
 <tr class="separator:ad54de5d34e19dff84a6798f20d5c68ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab4ea738843b4862c598beb44c220aeda"><td class="memItemLeft" align="right" valign="top">REFLECT_API int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="reflect__value_8h.html#ab4ea738843b4862c598beb44c220aeda">value_validate</a> (<a class="el" href="reflect__value_8h.html#a54c528809d1b8a4d229f655f96b2433a">value</a> v)</td></tr>
+<tr class="separator:ab4ea738843b4862c598beb44c220aeda"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a797b2f8ba4f572bc05c1d86d69a2179d"><td class="memItemLeft" align="right" valign="top">REFLECT_API <a class="el" href="reflect__value_8h.html#a54c528809d1b8a4d229f655f96b2433a">value</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="reflect__value_8h.html#a797b2f8ba4f572bc05c1d86d69a2179d">value_copy</a> (<a class="el" href="reflect__value_8h.html#a54c528809d1b8a4d229f655f96b2433a">value</a> v)</td></tr>
 <tr class="separator:a797b2f8ba4f572bc05c1d86d69a2179d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af5d25763b65c455048fb2d7468000c73"><td class="memItemLeft" align="right" valign="top">REFLECT_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="reflect__value_8h.html#af5d25763b65c455048fb2d7468000c73">value_move</a> (<a class="el" href="reflect__value_8h.html#a54c528809d1b8a4d229f655f96b2433a">value</a> src, <a class="el" href="reflect__value_8h.html#a54c528809d1b8a4d229f655f96b2433a">value</a> dst)</td></tr>
@@ -289,6 +291,33 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Pointer to value if success, null otherwhise </dd></dl>
+
+</div>
+</div>
+<a id="ab4ea738843b4862c598beb44c220aeda"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab4ea738843b4862c598beb44c220aeda">&#9670;&nbsp;</a></span>value_validate()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">REFLECT_API int value_validate </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="reflect__value_8h.html#a54c528809d1b8a4d229f655f96b2433a">value</a>&#160;</td>
+          <td class="paramname"><em>v</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Check if the value @v is valid or the memory is corrupted. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">v</td><td>Reference of value to be checked</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Zero if the value is valid, null otherwhise </dd></dl>
 
 </div>
 </div>
@@ -627,7 +656,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_b2f33c71d4aa5e7af42a1ca61ff5af1b.html">source</a></li><li class="navelem"><a class="el" href="dir_e212849920d5afeb1bd87e42ee764cec.html">reflect</a></li><li class="navelem"><a class="el" href="dir_0b0bd2a4a1a2bb2c64ca81b2bef5dd65.html">include</a></li><li class="navelem"><a class="el" href="dir_b7d0f4f6ee26594209f79de8fe572935.html">reflect</a></li><li class="navelem"><a class="el" href="reflect__value_8h.html">reflect_value.h</a></li>
-    <li class="footer">Generated on Thu Dec 9 2021 10:05:24 for MetaCall by
+    <li class="footer">Generated on Mon Jan 24 2022 19:38:26 for MetaCall by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>

@@ -57,7 +57,7 @@ L\+O\+G\+\_\+\+A\+PI log\+\_\+policy\+\_\+interface \textbf{ log\+\_\+policy\+\_
 \item 
 L\+O\+G\+\_\+\+A\+PI \textbf{ log\+\_\+policy} \textbf{ log\+\_\+policy\+\_\+stream\+\_\+file} (const char $\ast$file\+\_\+name, const char $\ast$mode)
 \item 
-L\+O\+G\+\_\+\+A\+PI \textbf{ log\+\_\+policy} \textbf{ log\+\_\+policy\+\_\+stream\+\_\+nginx} (\textbf{ ngx\+\_\+log\+\_\+t} $\ast$ngx\+\_\+log\+\_\+ptr, void($\ast$ngx\+\_\+error\+\_\+ptr)(), uint16\+\_\+t ngx\+\_\+log\+\_\+level)
+L\+O\+G\+\_\+\+A\+PI \textbf{ log\+\_\+policy} \textbf{ log\+\_\+policy\+\_\+stream\+\_\+nginx} (\textbf{ ngx\+\_\+log\+\_\+t} $\ast$ngx\+\_\+log\+\_\+ptr, void($\ast$ngx\+\_\+error\+\_\+ptr)(void), uint16\+\_\+t ngx\+\_\+log\+\_\+level)
 \item 
 L\+O\+G\+\_\+\+A\+PI \textbf{ log\+\_\+policy} \textbf{ log\+\_\+policy\+\_\+stream\+\_\+socket} (const char $\ast$ip, uint16\+\_\+t port)
 \item 
@@ -136,11 +136,11 @@ L\+O\+G\+\_\+\+P\+O\+L\+I\+C\+Y\+\_\+\+S\+T\+R\+E\+A\+M\+\_\+\+S\+I\+ZE&\\
 \doxysubsubsection{log\_policy\_stream\_file()}
 {\footnotesize\ttfamily L\+O\+G\+\_\+\+A\+PI \textbf{ log\+\_\+policy} log\+\_\+policy\+\_\+stream\+\_\+file (\begin{DoxyParamCaption}\item[{const char $\ast$}]{file\+\_\+name,  }\item[{const char $\ast$}]{mode }\end{DoxyParamCaption})}
 
-\mbox{\label{log__policy__stream_8h_a24e6abd5e2a37bc91d9619f39b859338}} 
+\mbox{\label{log__policy__stream_8h_a6c530d52ebb0e3c0ed67406bb9e7fb63}} 
 \index{log\_policy\_stream.h@{log\_policy\_stream.h}!log\_policy\_stream\_nginx@{log\_policy\_stream\_nginx}}
 \index{log\_policy\_stream\_nginx@{log\_policy\_stream\_nginx}!log\_policy\_stream.h@{log\_policy\_stream.h}}
 \doxysubsubsection{log\_policy\_stream\_nginx()}
-{\footnotesize\ttfamily L\+O\+G\+\_\+\+A\+PI \textbf{ log\+\_\+policy} log\+\_\+policy\+\_\+stream\+\_\+nginx (\begin{DoxyParamCaption}\item[{\textbf{ ngx\+\_\+log\+\_\+t} $\ast$}]{ngx\+\_\+log\+\_\+ptr,  }\item[{void($\ast$)()}]{ngx\+\_\+error\+\_\+ptr,  }\item[{uint16\+\_\+t}]{ngx\+\_\+log\+\_\+level }\end{DoxyParamCaption})}
+{\footnotesize\ttfamily L\+O\+G\+\_\+\+A\+PI \textbf{ log\+\_\+policy} log\+\_\+policy\+\_\+stream\+\_\+nginx (\begin{DoxyParamCaption}\item[{\textbf{ ngx\+\_\+log\+\_\+t} $\ast$}]{ngx\+\_\+log\+\_\+ptr,  }\item[{void($\ast$)(void)}]{ngx\+\_\+error\+\_\+ptr,  }\item[{uint16\+\_\+t}]{ngx\+\_\+log\+\_\+level }\end{DoxyParamCaption})}
 
 \mbox{\label{log__policy__stream_8h_a4b3fcc5ec7f59b7543e247dba2c0fae0}} 
 \index{log\_policy\_stream.h@{log\_policy\_stream.h}!log\_policy\_stream\_socket@{log\_policy\_stream\_socket}}

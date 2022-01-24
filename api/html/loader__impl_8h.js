@@ -20,6 +20,7 @@ var loader__impl_8h =
     [ "loader_impl_handle_id", "loader__impl_8h.html#abc84e0552507a704d3dcdaa04a0dd3c2", null ],
     [ "loader_impl_handle_export", "loader__impl_8h.html#a7b8593fabd702e8bdb2552755128aa44", null ],
     [ "loader_impl_handle_context", "loader__impl_8h.html#a0feed327b857033b702cf7c21fc0b88d", null ],
+    [ "loader_impl_handle_validate", "loader__impl_8h.html#a27eb3f04e9de3df4db549aff83ad2f67", null ],
     [ "loader_impl_metadata", "loader__impl_8h.html#a1533d375b2c0936275ea5d6b47a498c0", null ],
     [ "loader_impl_clear", "loader__impl_8h.html#af1f5d8072b794eec75444ccf79abe9ce", null ],
     [ "loader_impl_destroy_objects", "loader__impl_8h.html#a222684e3ae6d78eba758da03ea663023", null ],

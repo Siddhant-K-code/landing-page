@@ -27,7 +27,7 @@
   <td id="projectlogo"><img alt="Logo" src="logo.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">MetaCall
-   &#160;<span id="projectnumber">0.5.13.8e293b824ee9</span>
+   &#160;<span id="projectnumber">0.5.16.67af71d477a8</span>
    </div>
    <div id="projectbrief">A library for providing inter-language foreign function interface calls</div>
   </td>
@@ -137,6 +137,8 @@ Functions</h2></td></tr>
 <tr class="separator:a1067456b642e56c257ec2cfed4f402ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5ea5f53a4846747eb99cfb06ecd0341d"><td class="memItemLeft" align="right" valign="top">LOADER_API size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="loader__path_8h.html#a5ea5f53a4846747eb99cfb06ecd0341d">loader_path_get_relative</a> (const <a class="el" href="loader__naming_8h.html#aa27055dfc9a7bd58b024fea91438099a">loader_naming_path</a> base, const <a class="el" href="loader__naming_8h.html#aa27055dfc9a7bd58b024fea91438099a">loader_naming_path</a> path, <a class="el" href="loader__naming_8h.html#aa27055dfc9a7bd58b024fea91438099a">loader_naming_path</a> relative)</td></tr>
 <tr class="separator:a5ea5f53a4846747eb99cfb06ecd0341d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aadba0f63de8ba74d0e6ef6db22240a40"><td class="memItemLeft" align="right" valign="top">LOADER_API int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="loader__path_8h.html#aadba0f63de8ba74d0e6ef6db22240a40">loader_path_is_subpath</a> (const <a class="el" href="loader__naming_8h.html#aa27055dfc9a7bd58b024fea91438099a">loader_naming_path</a> parent, const <a class="el" href="loader__naming_8h.html#aa27055dfc9a7bd58b024fea91438099a">loader_naming_path</a> child)</td></tr>
+<tr class="separator:aadba0f63de8ba74d0e6ef6db22240a40"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8677d56baf8db4420b262bb31cb321a9"><td class="memItemLeft" align="right" valign="top">LOADER_API int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="loader__path_8h.html#a8677d56baf8db4420b262bb31cb321a9">loader_path_is_absolute</a> (const <a class="el" href="loader__naming_8h.html#aa27055dfc9a7bd58b024fea91438099a">loader_naming_path</a> path)</td></tr>
 <tr class="separator:a8677d56baf8db4420b262bb31cb321a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae818cdb044d24506a9b410dd3e8b96bd"><td class="memItemLeft" align="right" valign="top">LOADER_API size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="loader__path_8h.html#ae818cdb044d24506a9b410dd3e8b96bd">loader_path_join</a> (const <a class="el" href="loader__naming_8h.html#aa27055dfc9a7bd58b024fea91438099a">loader_naming_path</a> left_path, size_t left_path_size, const <a class="el" href="loader__naming_8h.html#aa27055dfc9a7bd58b024fea91438099a">loader_naming_path</a> right_path, size_t right_path_size, <a class="el" href="loader__naming_8h.html#aa27055dfc9a7bd58b024fea91438099a">loader_naming_path</a> join_path)</td></tr>
@@ -331,6 +333,34 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="aadba0f63de8ba74d0e6ef6db22240a40"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aadba0f63de8ba74d0e6ef6db22240a40">&#9670;&nbsp;</a></span>loader_path_is_subpath()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">LOADER_API int loader_path_is_subpath </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="loader__naming_8h.html#aa27055dfc9a7bd58b024fea91438099a">loader_naming_path</a>&#160;</td>
+          <td class="paramname"><em>parent</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="loader__naming_8h.html#aa27055dfc9a7bd58b024fea91438099a">loader_naming_path</a>&#160;</td>
+          <td class="paramname"><em>child</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a8677d56baf8db4420b262bb31cb321a9"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a8677d56baf8db4420b262bb31cb321a9">&#9670;&nbsp;</a></span>loader_path_is_absolute()</h2>
 
@@ -435,7 +465,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_b2f33c71d4aa5e7af42a1ca61ff5af1b.html">source</a></li><li class="navelem"><a class="el" href="dir_22c957fb592bb7dd0a39292df71c0dbc.html">loader</a></li><li class="navelem"><a class="el" href="dir_5c361d91932ade207a97c66a27ff23d2.html">include</a></li><li class="navelem"><a class="el" href="dir_d50ae27ce1e25427d19ce4c25c05a71d.html">loader</a></li><li class="navelem"><a class="el" href="loader__path_8h.html">loader_path.h</a></li>
-    <li class="footer">Generated on Thu Dec 9 2021 10:05:23 for MetaCall by
+    <li class="footer">Generated on Mon Jan 24 2022 19:38:26 for MetaCall by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>

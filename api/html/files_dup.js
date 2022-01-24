@@ -139,5 +139,6 @@ var files_dup =
     [ "reflect_value_type_cast.h", "reflect__value__type__cast_8h.html", "reflect__value__type__cast_8h" ],
     [ "reflect_value_type_demotion.h", "reflect__value__type__demotion_8h.html", "reflect__value__type__demotion_8h" ],
     [ "reflect_value_type_id_size.h", "reflect__value__type__id__size_8h.html", "reflect__value__type__id__size_8h" ],
-    [ "reflect_value_type_promotion.h", "reflect__value__type__promotion_8h.html", "reflect__value__type__promotion_8h" ]
+    [ "reflect_value_type_promotion.h", "reflect__value__type__promotion_8h.html", "reflect__value__type__promotion_8h" ],
+    [ "version.h", "version_8h.html", "version_8h" ]
 ];

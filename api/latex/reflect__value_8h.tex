@@ -37,6 +37,8 @@ R\+E\+F\+L\+E\+C\+T\+\_\+\+A\+PI \textbf{ value} \textbf{ value\+\_\+alloc} (siz
 \item 
 R\+E\+F\+L\+E\+C\+T\+\_\+\+A\+PI \textbf{ value} \textbf{ value\+\_\+create} (const void $\ast$data, size\+\_\+t bytes)
 \item 
+R\+E\+F\+L\+E\+C\+T\+\_\+\+A\+PI int \textbf{ value\+\_\+validate} (\textbf{ value} v)
+\item 
 R\+E\+F\+L\+E\+C\+T\+\_\+\+A\+PI \textbf{ value} \textbf{ value\+\_\+copy} (\textbf{ value} v)
 \item 
 R\+E\+F\+L\+E\+C\+T\+\_\+\+A\+PI void \textbf{ value\+\_\+move} (\textbf{ value} src, \textbf{ value} dst)
@@ -121,6 +123,24 @@ Create a value from @data with size @bytes.
 \end{DoxyParams}
 \begin{DoxyReturn}{Returns}
 Pointer to value if success, null otherwhise 
+\end{DoxyReturn}
+\mbox{\label{reflect__value_8h_ab4ea738843b4862c598beb44c220aeda}} 
+\index{reflect\_value.h@{reflect\_value.h}!value\_validate@{value\_validate}}
+\index{value\_validate@{value\_validate}!reflect\_value.h@{reflect\_value.h}}
+\doxysubsubsection{value\_validate()}
+{\footnotesize\ttfamily R\+E\+F\+L\+E\+C\+T\+\_\+\+A\+PI int value\+\_\+validate (\begin{DoxyParamCaption}\item[{\textbf{ value}}]{v }\end{DoxyParamCaption})}
+
+
+
+Check if the value @v is valid or the memory is corrupted. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em v} & Reference of value to be checked\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Zero if the value is valid, null otherwhise 
 \end{DoxyReturn}
 \mbox{\label{reflect__value_8h_a797b2f8ba4f572bc05c1d86d69a2179d}} 
 \index{reflect\_value.h@{reflect\_value.h}!value\_copy@{value\_copy}}

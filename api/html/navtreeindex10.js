@@ -1,5 +1,8 @@
 var NAVTREEINDEX10 =
 {
+"structlog__policy__interface__type.html#a965fa3a4bf7107baa7ca35d1d5ee9591":[0,0,34,2],
+"structlog__policy__interface__type.html#ac6bdb8b8a1121778c726e1c37b177f8e":[0,0,34,1],
+"structlog__policy__schedule__impl__type.html":[0,0,35],
 "structlog__policy__schedule__impl__type.html#a2ba771f7a5322e5ae5f84d361668fb8f":[0,0,35,1],
 "structlog__policy__schedule__impl__type.html#a8ddaa1a6977ec8ec91516e6346240a00":[0,0,35,2],
 "structlog__policy__schedule__impl__type.html#ac9e28c78a9e909c587b935c5e246b5f7":[0,0,35,0],
@@ -21,7 +24,7 @@ var NAVTREEINDEX10 =
 "structlog__policy__stream__nginx__ctor__type.html":[0,0,41],
 "structlog__policy__stream__nginx__ctor__type.html#a7dfb0a62ef9592f76c16b069b7cecc77":[0,0,41,2],
 "structlog__policy__stream__nginx__ctor__type.html#a8d1d4d806c9895d71fed41dd5b8e3721":[0,0,41,0],
-"structlog__policy__stream__nginx__ctor__type.html#add485159372539b8e72afdf0d26358bb":[0,0,41,1],
+"structlog__policy__stream__nginx__ctor__type.html#a8d3b47e3e45813f002b2cc3cd848e94b":[0,0,41,1],
 "structlog__policy__stream__socket__ctor__type.html":[0,0,42],
 "structlog__policy__stream__socket__ctor__type.html#ad443095b2af6b2f19acb92315323ea70":[0,0,42,1],
 "structlog__policy__stream__socket__ctor__type.html#ad91e48273b2e537ac84065ee36a0f85f":[0,0,42,0],
@@ -98,5 +101,8 @@ var NAVTREEINDEX10 =
 "structpair__type.html#af18fd929b551b7de2c8dece54ac88a64":[0,0,61,1],
 "structtype__interface__type.html":[0,0,62],
 "structtype__interface__type.html#a60f8ea0bb3eb1cb32a40be54984c6be0":[0,0,62,0],
-"structtype__interface__type.html#a926be7a5f310df529073ca5af91e7e40":[0,0,62,1]
+"structtype__interface__type.html#a926be7a5f310df529073ca5af91e7e40":[0,0,62,1],
+"version_8h.html":[1,0,131],
+"version_8h.html#a49add844c7c36aec4ff72c6b23bb5f44":[1,0,131,0],
+"version_8h_source.html":[1,0,131]
 };
